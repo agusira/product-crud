@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: flask
-          image: 800802900236.dkr.ecr.us-east-1.amazonaws.com/inventory:flask-latest
+          image: 782469701585.dkr.ecr.us-east-1.amazonaws.com/pproduct-crud:latest
           ports:
             - containerPort: 5000
           env:
