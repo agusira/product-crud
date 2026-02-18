@@ -116,6 +116,5 @@ jobs:
          run: |
            envsubst < deployment.yaml | kubectl apply -f -
 
-           
        - name: Verify Deployment
          run: kubectl get pods 
